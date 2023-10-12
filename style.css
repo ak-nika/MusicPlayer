@@ -1,0 +1,54 @@
+   body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin: 20px 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+li {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+li:hover {
+    background-color: #f0f0f0;
+}
+
+audio {
+    width: 100%;
+    margin: 20px 0;
+}
+
+.control-button, .seek-button {
+    background-color: #0074d9;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.control-button:hover, .seek-button:hover {
+    background-color: #0056b3;
+}
+
+.seek-bar {
+    width: 90%;
+}
